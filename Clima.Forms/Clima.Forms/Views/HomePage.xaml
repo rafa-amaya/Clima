@@ -9,9 +9,84 @@
              Title="Home">
     <ContentPage.Content>
         <StackLayout BindingContext="{Binding Home}" Padding="8">
-            <Label
-                Text="Email">
-            </Label>
+            <Grid Margin="20,35,20,20">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.4*" />
+                    <ColumnDefinition Width="0.6*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40" />
+                    <RowDefinition Height="40" />
+                    <RowDefinition Height="40" />
+                    <RowDefinition Height="40" />
+                    <RowDefinition Height="40" />
+                    <RowDefinition Height="40" />
+                    <RowDefinition Height="40" />
+                </Grid.RowDefinitions>
+                <Picker
+                    x:Name="cityDatePicker"
+                    Grid.ColumnSpan="2">
+                    <Picker.Items>
+                        <x:String>Buenos Aires</x:String>
+                        <x:String>Nesebar</x:String>
+                        <x:String>Looe</x:String>
+                        <x:String>Pantigliate</x:String>
+                        <x:String>Marcon</x:String>
+                        <x:String>Baranzate</x:String>
+                    </Picker.Items>
+                </Picker>
+                <Button
+                    Grid.ColumnSpan="2"
+                    Grid.Row="1"
+                    Text="Get Weather"
+                    Command="{Binding GetWatherCommand}">
+                </Button>
+                <Label 
+                    Grid.Row="2"
+                    Text="Location:">
+                </Label>
+                <Label 
+                    Grid.Row="2"
+                    Grid.Column="1"
+                    Text="{Binding Title}">
+                </Label>
+                <Label 
+                    Grid.Row="3"
+                    Text="Temperature:">
+                </Label>
+                <Label 
+                    Grid.Row="3"
+                    Grid.Column="1"
+                    Text="{Binding Main.Temperature}">                    
+                </Label>
+                <Label 
+                    Grid.Row="4"
+                    Text="Wind Speed:">
+                </Label>
+                <Label 
+                    Grid.Row="4"
+                    Grid.Column="1"
+                    Text="{Binding Wind.Speed}">                    
+                </Label>
+                <Label 
+                    Grid.Row="5"
+                    Text="Humidity:">                    
+                </Label>
+                <Label 
+                    Grid.Row="5"
+                    Grid.Column="1"
+                    Text="{Binding Main.Humidity}">                    
+                </Label>
+                <Label 
+                    Grid.Row="6"
+                    Text="Visibility:">                    
+                </Label>
+                <Label 
+                    Grid.Row="6"
+                    Grid.Column="1"
+                    Text="{Binding Weather[0].Visibility}">                    
+                </Label>
+            </Grid>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

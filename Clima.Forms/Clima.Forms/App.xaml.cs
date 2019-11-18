@@ -1,7 +1,5 @@
 ﻿using Clima.Forms.Views;
-using System;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 namespace Clima.Forms
 {
@@ -11,7 +9,7 @@ namespace Clima.Forms
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage( new HomePage());
+            MainPage = new NavigationPage(new HomePage());
         }
 
         protected override void OnStart()
