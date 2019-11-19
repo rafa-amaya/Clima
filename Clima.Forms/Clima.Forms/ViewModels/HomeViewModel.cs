@@ -1,9 +1,6 @@
-﻿
-
-using Clima.Forms.Models;
+﻿using Clima.Forms.Models;
 using Clima.Forms.Services;
 using GalaSoft.MvvmLight.Command;
-using System;
 using System.Collections.Generic;
 using System.Windows.Input;
 using Xamarin.Forms;
@@ -14,7 +11,7 @@ namespace Clima.Forms.ViewModels
     {
         private ApiService apiService;
         public ICommand GetWatherCommand => new RelayCommand(GetWather);
-        public IList<CiudadData> Ciudades { get { return Datos.Ciudad; } }
+        public IList<CiudadData> Ciudades { get { return Datos.ObjContactList.ciudades; } }
         public CiudadData selectCiudades;
         public CiudadData SelectCiudades
         {

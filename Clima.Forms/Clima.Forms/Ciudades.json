@@ -1,0 +1,904 @@
+﻿{
+  "ciudades": [
+    {
+      "id": 6535238,
+      "name": "Pieranica",
+      "country": "IT",
+      "coord": {
+        "lon": 9.61026,
+        "lat": 45.42617
+      }
+    },
+    {
+      "id": 6535239,
+      "name": "Quintano",
+      "country": "IT",
+      "coord": {
+        "lon": 9.61856,
+        "lat": 45.420471
+      }
+    },
+    {
+      "id": 6535240,
+      "name": "Ricengo",
+      "country": "IT",
+      "coord": {
+        "lon": 9.72396,
+        "lat": 45.40567
+      }
+    },
+    {
+      "id": 6535241,
+      "name": "Borgofranco sul Po",
+      "country": "IT",
+      "coord": {
+        "lon": 11.2093,
+        "lat": 45.046581
+      }
+    },
+    {
+      "id": 6535242,
+      "name": "Felonica",
+      "country": "IT",
+      "coord": {
+        "lon": 11.3537,
+        "lat": 44.978981
+      }
+    },
+    {
+      "id": 6535243,
+      "name": "Mariana Mantovana",
+      "country": "IT",
+      "coord": {
+        "lon": 10.48688,
+        "lat": 45.192879
+      }
+    },
+    {
+      "id": 6535245,
+      "name": "Schivenoglia",
+      "country": "IT",
+      "coord": {
+        "lon": 11.073,
+        "lat": 44.99498
+      }
+    },
+    {
+      "id": 6535246,
+      "name": "Villa Poma",
+      "country": "IT",
+      "coord": {
+        "lon": 11.1145,
+        "lat": 45.00238
+      }
+    },
+    {
+      "id": 6535247,
+      "name": "Amblar",
+      "country": "IT",
+      "coord": {
+        "lon": 11.14677,
+        "lat": 46.395409
+      }
+    },
+    {
+      "id": 6535249,
+      "name": "Bieno",
+      "country": "IT",
+      "coord": {
+        "lon": 11.55609,
+        "lat": 46.081509
+      }
+    },
+    {
+      "id": 6535250,
+      "name": "Bondo",
+      "country": "IT",
+      "coord": {
+        "lon": 10.69197,
+        "lat": 46.000301
+      }
+    },
+    {
+      "id": 6535251,
+      "name": "Bondone",
+      "country": "IT",
+      "coord": {
+        "lon": 10.55027,
+        "lat": 45.806492
+      }
+    },
+    {
+      "id": 6535252,
+      "name": "Calceranica al Lago",
+      "country": "IT",
+      "coord": {
+        "lon": 11.24368,
+        "lat": 46.004601
+      }
+    },
+    {
+      "id": 6535253,
+      "name": "Carano",
+      "country": "IT",
+      "coord": {
+        "lon": 11.43978,
+        "lat": 46.291512
+      }
+    },
+    {
+      "id": 6535254,
+      "name": "Carzano",
+      "country": "IT",
+      "coord": {
+        "lon": 11.49379,
+        "lat": 46.070911
+      }
+    },
+    {
+      "id": 6535255,
+      "name": "Cavedine",
+      "country": "IT",
+      "coord": {
+        "lon": 10.97358,
+        "lat": 45.995201
+      }
+    },
+    {
+      "id": 6535256,
+      "name": "Cavizzana",
+      "country": "IT",
+      "coord": {
+        "lon": 10.95817,
+        "lat": 46.36721
+      }
+    },
+    {
+      "id": 6535257,
+      "name": "Cis",
+      "country": "IT",
+      "coord": {
+        "lon": 11.00327,
+        "lat": 46.398411
+      }
+    },
+    {
+      "id": 6535258,
+      "name": "Dare",
+      "country": "IT",
+      "coord": {
+        "lon": 10.71807,
+        "lat": 46.075199
+      }
+    },
+    {
+      "id": 6535259,
+      "name": "Don",
+      "country": "IT",
+      "coord": {
+        "lon": 11.13647,
+        "lat": 46.389309
+      }
+    },
+    {
+      "id": 6535260,
+      "name": "Faedo",
+      "country": "IT",
+      "coord": {
+        "lon": 11.16128,
+        "lat": 46.19241
+      }
+    },
+    {
+      "id": 6535261,
+      "name": "Faver",
+      "country": "IT",
+      "coord": {
+        "lon": 11.23728,
+        "lat": 46.181309
+      }
+    },
+    {
+      "id": 6535262,
+      "name": "Fornace",
+      "country": "IT",
+      "coord": {
+        "lon": 11.20751,
+        "lat": 46.11805
+      }
+    },
+    {
+      "id": 6535263,
+      "name": "Frassilongo",
+      "country": "IT",
+      "coord": {
+        "lon": 11.29718,
+        "lat": 46.089909
+      }
+    },
+    {
+      "id": 6535264,
+      "name": "Giustino",
+      "country": "IT",
+      "coord": {
+        "lon": 10.76777,
+        "lat": 46.151299
+      }
+    },
+    {
+      "id": 6535265,
+      "name": "Cantalupa",
+      "country": "IT",
+      "coord": {
+        "lon": 7.33032,
+        "lat": 44.945938
+      }
+    },
+    {
+      "id": 6535266,
+      "name": "Cercenasco",
+      "country": "IT",
+      "coord": {
+        "lon": 7.49822,
+        "lat": 44.862041
+      }
+    },
+    {
+      "id": 6535267,
+      "name": "Chiesanuova",
+      "country": "IT",
+      "coord": {
+        "lon": 7.65552,
+        "lat": 45.417461
+      }
+    },
+    {
+      "id": 6535268,
+      "name": "Chiusa di San Michele",
+      "country": "IT",
+      "coord": {
+        "lon": 7.32711,
+        "lat": 45.10424
+      }
+    },
+    {
+      "id": 6535269,
+      "name": "Ciconio",
+      "country": "IT",
+      "coord": {
+        "lon": 7.75852,
+        "lat": 45.33025
+      }
+    },
+    {
+      "id": 6535270,
+      "name": "Colleretto Castelnuovo",
+      "country": "IT",
+      "coord": {
+        "lon": 7.67982,
+        "lat": 45.422359
+      }
+    },
+    {
+      "id": 6535271,
+      "name": "Colleretto Giacosa",
+      "country": "IT",
+      "coord": {
+        "lon": 7.79852,
+        "lat": 45.432861
+      }
+    },
+    {
+      "id": 6535272,
+      "name": "Cossano Canavese",
+      "country": "IT",
+      "coord": {
+        "lon": 7.99152,
+        "lat": 45.38776
+      }
+    },
+    {
+      "id": 6535273,
+      "name": "Fiorano Canavese",
+      "country": "IT",
+      "coord": {
+        "lon": 7.83372,
+        "lat": 45.467758
+      }
+    },
+    {
+      "id": 6535274,
+      "name": "Givoletto",
+      "country": "IT",
+      "coord": {
+        "lon": 7.49642,
+        "lat": 45.162251
+      }
+    },
+    {
+      "id": 6535275,
+      "name": "Grosso",
+      "country": "IT",
+      "coord": {
+        "lon": 7.55732,
+        "lat": 45.256451
+      }
+    },
+    {
+      "id": 6535276,
+      "name": "Pratiglione",
+      "country": "IT",
+      "coord": {
+        "lon": 7.59602,
+        "lat": 45.352749
+      }
+    },
+    {
+      "id": 6535277,
+      "name": "Ribordone",
+      "country": "IT",
+      "coord": {
+        "lon": 7.50231,
+        "lat": 45.432549
+      }
+    },
+    {
+      "id": 6535278,
+      "name": "Salerano Canavese",
+      "country": "IT",
+      "coord": {
+        "lon": 7.85112,
+        "lat": 45.458061
+      }
+    },
+    {
+      "id": 6535279,
+      "name": "San Didero",
+      "country": "IT",
+      "coord": {
+        "lon": 7.21301,
+        "lat": 45.135441
+      }
+    },
+    {
+      "id": 6535280,
+      "name": "San Germano Chisone",
+      "country": "IT",
+      "coord": {
+        "lon": 7.23662,
+        "lat": 44.902039
+      }
+    },
+    {
+      "id": 6535331,
+      "name": "Desulo",
+      "country": "IT",
+      "coord": {
+        "lon": 9.22704,
+        "lat": 40.01025
+      }
+    },
+    {
+      "id": 6535332,
+      "name": "Villaperuccio",
+      "country": "IT",
+      "coord": {
+        "lon": 8.67004,
+        "lat": 39.111832
+      }
+    },
+    {
+      "id": 6535333,
+      "name": "Villa SantAntonio",
+      "country": "IT",
+      "coord": {
+        "lon": 8.90153,
+        "lat": 39.85915
+      }
+    },
+    {
+      "id": 6535334,
+      "name": "Donato",
+      "country": "IT",
+      "coord": {
+        "lon": 7.90962,
+        "lat": 45.52626
+      }
+    },
+    {
+      "id": 6535335,
+      "name": "Magnano",
+      "country": "IT",
+      "coord": {
+        "lon": 8.00302,
+        "lat": 45.46336
+      }
+    },
+    {
+      "id": 6535336,
+      "name": "Piatto",
+      "country": "IT",
+      "coord": {
+        "lon": 8.13532,
+        "lat": 45.589859
+      }
+    },
+    {
+      "id": 6535337,
+      "name": "Ronco Biellese",
+      "country": "IT",
+      "coord": {
+        "lon": 8.09072,
+        "lat": 45.578461
+      }
+    },
+    {
+      "id": 6535338,
+      "name": "Sagliano Micca",
+      "country": "IT",
+      "coord": {
+        "lon": 8.04332,
+        "lat": 45.625759
+      }
+    },
+    {
+      "id": 6535339,
+      "name": "San Paolo Cervo",
+      "country": "IT",
+      "coord": {
+        "lon": 8.01002,
+        "lat": 45.653259
+      }
+    },
+    {
+      "id": 6535340,
+      "name": "Sostegno",
+      "country": "IT",
+      "coord": {
+        "lon": 8.26982,
+        "lat": 45.65287
+      }
+    },
+    {
+      "id": 6535341,
+      "name": "Tavigliano",
+      "country": "IT",
+      "coord": {
+        "lon": 8.05172,
+        "lat": 45.622059
+      }
+    },
+    {
+      "id": 6535342,
+      "name": "Valdengo",
+      "country": "IT",
+      "coord": {
+        "lon": 8.13832,
+        "lat": 45.567059
+      }
+    },
+    {
+      "id": 6535343,
+      "name": "Villanova Biellese",
+      "country": "IT",
+      "coord": {
+        "lon": 8.19432,
+        "lat": 45.48156
+      }
+    },
+    {
+      "id": 6535344,
+      "name": "Bulciago",
+      "country": "IT",
+      "coord": {
+        "lon": 9.28534,
+        "lat": 45.75058
+      }
+    },
+    {
+      "id": 6535345,
+      "name": "Calco",
+      "country": "IT",
+      "coord": {
+        "lon": 9.41255,
+        "lat": 45.724178
+      }
+    },
+    {
+      "id": 6535346,
+      "name": "Cassago Brianza",
+      "country": "IT",
+      "coord": {
+        "lon": 9.29344,
+        "lat": 45.738079
+      }
+    },
+    {
+      "id": 6535347,
+      "name": "Civate",
+      "country": "IT",
+      "coord": {
+        "lon": 9.34294,
+        "lat": 45.828079
+      }
+    },
+    {
+      "id": 6535348,
+      "name": "Cortenova",
+      "country": "IT",
+      "coord": {
+        "lon": 9.38454,
+        "lat": 46.00029
+      }
+    },
+    {
+      "id": 6535349,
+      "name": "Costa Masnaga",
+      "country": "IT",
+      "coord": {
+        "lon": 9.27774,
+        "lat": 45.766979
+      }
+    },
+    {
+      "id": 6535350,
+      "name": "Erve",
+      "country": "IT",
+      "coord": {
+        "lon": 9.45285,
+        "lat": 45.821579
+      }
+    },
+    {
+      "id": 6535351,
+      "name": "Garlate",
+      "country": "IT",
+      "coord": {
+        "lon": 9.39964,
+        "lat": 45.81208
+      }
+    },
+    {
+      "id": 6535352,
+      "name": "Imbersago",
+      "country": "IT",
+      "coord": {
+        "lon": 9.44445,
+        "lat": 45.705879
+      }
+    },
+    {
+      "id": 6535353,
+      "name": "Parlasco",
+      "country": "IT",
+      "coord": {
+        "lon": 9.34494,
+        "lat": 46.017891
+      }
+    },
+    {
+      "id": 6535354,
+      "name": "Pasturo",
+      "country": "IT",
+      "coord": {
+        "lon": 9.44414,
+        "lat": 45.951679
+      }
+    },
+    {
+      "id": 6535355,
+      "name": "Perego",
+      "country": "IT",
+      "coord": {
+        "lon": 9.36295,
+        "lat": 45.737579
+      }
+    },
+    {
+      "id": 6535356,
+      "name": "Perledo",
+      "country": "IT",
+      "coord": {
+        "lon": 9.29422,
+        "lat": 46.01738
+      }
+    },
+    {
+      "id": 6535357,
+      "name": "Pescate",
+      "country": "IT",
+      "coord": {
+        "lon": 9.39394,
+        "lat": 45.833481
+      }
+    },
+    {
+      "id": 6535358,
+      "name": "Rogeno",
+      "country": "IT",
+      "coord": {
+        "lon": 9.27404,
+        "lat": 45.782379
+      }
+    },
+    {
+      "id": 6535359,
+      "name": "Santa Maria Hoe",
+      "country": "IT",
+      "coord": {
+        "lon": 9.37445,
+        "lat": 45.744282
+      }
+    },
+    {
+      "id": 6535360,
+      "name": "Sirtori",
+      "country": "IT",
+      "coord": {
+        "lon": 9.33084,
+        "lat": 45.73658
+      }
+    },
+    {
+      "id": 6535361,
+      "name": "Suello",
+      "country": "IT",
+      "coord": {
+        "lon": 9.31154,
+        "lat": 45.81678
+      }
+    },
+    {
+      "id": 6535362,
+      "name": "Valgreghentino",
+      "country": "IT",
+      "coord": {
+        "lon": 9.41345,
+        "lat": 45.779282
+      }
+    },
+    {
+      "id": 6535363,
+      "name": "Verderio Inferiore",
+      "country": "IT",
+      "coord": {
+        "lon": 9.43345,
+        "lat": 45.665581
+      }
+    },
+    {
+      "id": 6535364,
+      "name": "Verderio Superiore",
+      "country": "IT",
+      "coord": {
+        "lon": 9.44035,
+        "lat": 45.667782
+      }
+    },
+    {
+      "id": 6535365,
+      "name": "Casaletto Lodigiano",
+      "country": "IT",
+      "coord": {
+        "lon": 9.36121,
+        "lat": 45.307011
+      }
+    },
+    {
+      "id": 6535366,
+      "name": "Cervignano dAdda",
+      "country": "IT",
+      "coord": {
+        "lon": 9.42405,
+        "lat": 45.373871
+      }
+    },
+    {
+      "id": 6535367,
+      "name": "Graffignana",
+      "country": "IT",
+      "coord": {
+        "lon": 9.45436,
+        "lat": 45.20647
+      }
+    },
+    {
+      "id": 6535368,
+      "name": "Mairago",
+      "country": "IT",
+      "coord": {
+        "lon": 9.57836,
+        "lat": 45.25177
+      }
+    },
+    {
+      "id": 6535369,
+      "name": "Ospedaletto Lodigiano",
+      "country": "IT",
+      "coord": {
+        "lon": 9.57866,
+        "lat": 45.16877
+      }
+    },
+    {
+      "id": 6535370,
+      "name": "Pieve Fissiraga",
+      "country": "IT",
+      "coord": {
+        "lon": 9.45836,
+        "lat": 45.263271
+      }
+    },
+    {
+      "id": 6535372,
+      "name": "Sordio",
+      "country": "IT",
+      "coord": {
+        "lon": 9.36385,
+        "lat": 45.342171
+      }
+    },
+    {
+      "id": 6535373,
+      "name": "Valera Fratta",
+      "country": "IT",
+      "coord": {
+        "lon": 9.33615,
+        "lat": 45.257172
+      }
+    },
+    {
+      "id": 6535374,
+      "name": "Villanova del Sillaro",
+      "country": "IT",
+      "coord": {
+        "lon": 9.48186,
+        "lat": 45.237968
+      }
+    },
+    {
+      "id": 6535375,
+      "name": "Montegridolfo",
+      "country": "IT",
+      "coord": {
+        "lon": 12.68995,
+        "lat": 43.858261
+      }
+    },
+    {
+      "id": 6535376,
+      "name": "Castelsilano",
+      "country": "IT",
+      "coord": {
+        "lon": 16.767401,
+        "lat": 39.2691
+      }
+    },
+    {
+      "id": 6535377,
+      "name": "Filandari",
+      "country": "IT",
+      "coord": {
+        "lon": 16.031401,
+        "lat": 38.615082
+      }
+    },
+    {
+      "id": 6535378,
+      "name": "Stefanaconi",
+      "country": "IT",
+      "coord": {
+        "lon": 16.124201,
+        "lat": 38.677879
+      }
+    },
+    {
+      "id": 6535379,
+      "name": "Arizzano",
+      "country": "IT",
+      "coord": {
+        "lon": 8.58292,
+        "lat": 45.957378
+      }
+    },
+    {
+      "id": 6535380,
+      "name": "Aurano",
+      "country": "IT",
+      "coord": {
+        "lon": 8.58822,
+        "lat": 46.000381
+      }
+    },
+    {
+      "id": 6535381,
+      "name": "Cambiasca",
+      "country": "IT",
+      "coord": {
+        "lon": 8.54462,
+        "lat": 45.962379
+      }
+    },
+    {
+      "id": 6535382,
+      "name": "Quarna Sotto",
+      "country": "IT",
+      "coord": {
+        "lon": 8.36332,
+        "lat": 45.869171
+      }
+    },
+    {
+      "id": 6535383,
+      "name": "Seppiana",
+      "country": "IT",
+      "coord": {
+        "lon": 8.21662,
+        "lat": 46.058281
+      }
+    },
+    {
+      "id": 6535384,
+      "name": "Vignone",
+      "country": "IT",
+      "coord": {
+        "lon": 8.56372,
+        "lat": 45.961182
+      }
+    },
+    {
+      "id": 6535385,
+      "name": "Villette",
+      "country": "IT",
+      "coord": {
+        "lon": 8.53422,
+        "lat": 46.131882
+      }
+    },
+    {
+      "id": 6535386,
+      "name": "Bibiana",
+      "country": "IT",
+      "coord": {
+        "lon": 7.28822,
+        "lat": 44.798939
+      }
+    },
+    {
+      "id": 6535387,
+      "name": "Bruzolo",
+      "country": "IT",
+      "coord": {
+        "lon": 7.19841,
+        "lat": 45.139641
+      }
+    },
+    {
+      "id": 6535388,
+      "name": "Cafasse",
+      "country": "IT",
+      "coord": {
+        "lon": 7.51882,
+        "lat": 45.24865
+      }
+    },
+    {
+      "id": 6535389,
+      "name": "Castagnole Piemonte",
+      "country": "IT",
+      "coord": {
+        "lon": 7.56612,
+        "lat": 44.89814
+      }
+    },
+    {
+      "id": 708546,
+      "name": "Holubynka",
+      "country": "UA",
+      "coord": {
+        "lon": 33.900002,
+        "lat": 44.599998
+      }
+    }
+  ]
+}

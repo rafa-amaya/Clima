@@ -6,6 +6,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Models\CiudadDat.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Ciudades.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Ciudades.json" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="MvvmLightLibsStd10" Version="5.4.1.1" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
     <PackageReference Include="Xamarin.Forms" Version="4.2.0.709249" />

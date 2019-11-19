@@ -1,31 +1,25 @@
-﻿using System;
+﻿using Newtonsoft.Json;
 using System.Collections.Generic;
-using System.Text;
+using System.IO;
+using System.Reflection;
 
 namespace Clima.Forms.Models
 {
     class Datos
     {
         public static IList<CiudadData> Ciudad { get; private set; }
+        public static ContactList ObjContactList = new ContactList();
         static Datos()
         {
 
-            Ciudad = new List<CiudadData>();
-
-            Ciudad.Add(new CiudadData
+            string jsonFileName = "Ciudades.json";
+            var assembly = typeof(Datos).GetTypeInfo().Assembly;
+            Stream stream = assembly.GetManifestResourceStream($"{assembly.GetName().Name}.{jsonFileName}");
+            using (var reader = new System.IO.StreamReader(stream))
             {
-                Name = "London"
-            });
-
-            Ciudad.Add(new CiudadData
-            {
-                Name = "Algarinejo"
-            });
-
-            Ciudad.Add(new CiudadData
-            {
-                Name = "Atauri"
-            });
+                var jsonString = reader.ReadToEnd();
+                ObjContactList = JsonConvert.DeserializeObject<ContactList>(jsonString);
+            }
         }
 
     }
