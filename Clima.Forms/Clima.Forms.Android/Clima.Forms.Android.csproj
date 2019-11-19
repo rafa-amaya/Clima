@@ -93,7 +93,9 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ciudad.png" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Clima.Forms\Clima.Forms.csproj">
       <Project>{B194B144-70A2-4662-B2E8-6EC2E263FCC6}</Project>

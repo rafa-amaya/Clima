@@ -43,7 +43,11 @@
                 <Label 
                     Grid.Row="2"
                     Grid.Column="1"
-                    Text="{Binding Title}">
+                    Text="{Binding Title}"
+                    TextColor="Blue">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding TitleCommand}" />
+                    </Label.GestureRecognizers>
                 </Label>
                 <Label 
                     Grid.Row="3"

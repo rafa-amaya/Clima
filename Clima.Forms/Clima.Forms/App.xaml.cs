@@ -1,4 +1,5 @@
-﻿using Clima.Forms.Views;
+﻿using Clima.Forms.ViewModels;
+using Clima.Forms.Views;
 using Xamarin.Forms;
 
 namespace Clima.Forms
@@ -8,7 +9,7 @@ namespace Clima.Forms
         public App()
         {
             InitializeComponent();
-
+            MainViewModel.GetInstance().Home = new HomeViewModel();
             MainPage = new NavigationPage(new HomePage());
         }
 

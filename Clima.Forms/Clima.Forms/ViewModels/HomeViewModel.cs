@@ -1,6 +1,8 @@
 ﻿using Clima.Forms.Models;
 using Clima.Forms.Services;
+using Clima.Forms.Views;
 using GalaSoft.MvvmLight.Command;
+using System;
 using System.Collections.Generic;
 using System.Windows.Input;
 using Xamarin.Forms;
@@ -10,7 +12,9 @@ namespace Clima.Forms.ViewModels
     public class HomeViewModel : BaseViewModel
     {
         private ApiService apiService;
+        public ClimaData climaData { get; set; }
         public ICommand GetWatherCommand => new RelayCommand(GetWather);
+        public ICommand TitleCommand => new RelayCommand(Detalle);             
         public IList<CiudadData> Ciudades { get { return Datos.ObjContactList.ciudades; } }
         public CiudadData selectCiudades;
         public CiudadData SelectCiudades
@@ -72,13 +76,21 @@ namespace Clima.Forms.ViewModels
                     "Accept");
                 return;
             }
-            var climaData = (ClimaData)response.Result;
+            climaData = (ClimaData)response.Result;
 
             this.Title = climaData.Title;
             this.Temperature = climaData.Main.Temperature.ToString();
             this.Speed = climaData.Wind.Speed.ToString();
             this.Humidity = climaData.Main.Humidity.ToString();
             this.Visibility = climaData.Weather[0].Visibility;
+        }
+        private async void Detalle()
+        {
+            if (!string.IsNullOrEmpty(Title))
+            {
+                MainViewModel.GetInstance().Detalle = new DetalleViewModel(climaData);
+                await Application.Current.MainPage.Navigation.PushAsync(new DetallePage());
+            }
         }
 
         string GenerateRequestUri(string endpoint)

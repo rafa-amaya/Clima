@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Clima.Forms.Views.DetallePage"
+             BindingContext="{Binding Main, Source={StaticResource Locator}}"
+             Title="Detalle">
+    <ContentPage.Content>
+        <StackLayout BindingContext="{Binding Detalle}" Margin="20" >
+            <Label Text="{Binding Title}" 
+                   HorizontalOptions="Center" 
+                   Style="{DynamicResource TitleStyle}">
+            </Label>
+            <Image Source="ciudad.png" 
+                   HeightRequest="300" 
+                   WidthRequest="300" 
+                   HorizontalOptions="CenterAndExpand">
+            </Image>
+            <Label Text="La capital francesa está ubicada en el puesto número 1 del ranking de las ciudades
+                   más hermosas del mundo. La Torre Eiffel es una de las principales atracciones turísticas, 
+                   seguidas por el Arco del Triunfo y también el Museo del Louvre. Se destaca por su excelente 
+                   gastronomía y sus calles perfectas que se pueden ver desde las alturas" 
+                   Style="{DynamicResource BodyStyle}">
+            </Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
