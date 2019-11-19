@@ -24,16 +24,11 @@
                     <RowDefinition Height="40" />
                 </Grid.RowDefinitions>
                 <Picker
-                    x:Name="cityDatePicker"
+                    ItemsSource="{Binding Ciudades}"
+                    ItemDisplayBinding="{Binding Name}"
+                    SelectedItem="{Binding SelectCiudades}"
                     Grid.ColumnSpan="2">
-                    <Picker.Items>
-                        <x:String>Buenos Aires</x:String>
-                        <x:String>Nesebar</x:String>
-                        <x:String>Looe</x:String>
-                        <x:String>Pantigliate</x:String>
-                        <x:String>Marcon</x:String>
-                        <x:String>Baranzate</x:String>
-                    </Picker.Items>
+
                 </Picker>
                 <Button
                     Grid.ColumnSpan="2"
@@ -57,7 +52,7 @@
                 <Label 
                     Grid.Row="3"
                     Grid.Column="1"
-                    Text="{Binding Main.Temperature}">                    
+                    Text="{Binding Temperature}">                    
                 </Label>
                 <Label 
                     Grid.Row="4"
@@ -66,7 +61,7 @@
                 <Label 
                     Grid.Row="4"
                     Grid.Column="1"
-                    Text="{Binding Wind.Speed}">                    
+                    Text="{Binding Speed}">                    
                 </Label>
                 <Label 
                     Grid.Row="5"
@@ -75,7 +70,7 @@
                 <Label 
                     Grid.Row="5"
                     Grid.Column="1"
-                    Text="{Binding Main.Humidity}">                    
+                    Text="{Binding Humidity}">                    
                 </Label>
                 <Label 
                     Grid.Row="6"
@@ -84,7 +79,7 @@
                 <Label 
                     Grid.Row="6"
                     Grid.Column="1"
-                    Text="{Binding Weather[0].Visibility}">                    
+                    Text="{Binding Visibility}">                    
                 </Label>
             </Grid>
         </StackLayout>
